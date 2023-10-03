@@ -1,3 +1,7 @@
+import 'remixicon/fonts/remixicon.css';
+import 'flag-icons/css/flag-icons.min.css';
+import { createPopper } from '@popperjs/core';
+
 console.info("template - shared");
 
 function giveViteSomeFuel() {

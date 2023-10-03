@@ -1,3 +1,5 @@
 <?php snippet('header'); ?>
-<h1><?= $page->title() ?></h1>
+
+<?php snippet('pages/home/list', ['entry' => 'home']); ?>
+
 <?php snippet('footer'); ?>
